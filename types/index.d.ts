@@ -18,7 +18,7 @@ interface Interview {
   role: string;
   level: string;
   questions: string[];
-  techstack: string[];
+  techStack: string[];
   createdAt: string;
   userId: string;
   type: string;
@@ -40,13 +40,13 @@ interface User {
 
 interface InterviewCardProps {
   interviewId?: string;
+
   userId?: string;
   role: string;
   type: string;
-  techstack: string[];
+  techStack: string[];
   createdAt?: string;
 }
-
 interface AgentProps {
   userName: string;
   userId?: string;
@@ -90,7 +90,7 @@ interface InterviewFormProps {
   role: string;
   level: string;
   type: string;
-  techstack: string[];
+  techStack: string[];
   amount: number;
 }
 
